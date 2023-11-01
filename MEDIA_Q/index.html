@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .heading{
+            height: 50%;
+            background-color: blueviolet;
+        }
+
+        @media screen and (max-width: 480px) {
+            .heading{
+                color: rgb(234, 255, 0);
+            }
+        }
+
+
+        @media (min-width: 481) and (max-width: 767) {
+            .heading{
+                color: rgb(242, 91, 15);
+                /* background-color: chartreuse; */
+            }
+        }
+
+
+        @media screen and (min-width: 768) and (max-width: 1024) {
+            .heading{
+                color: rgb(10, 194, 250);
+            }
+        }
+
+        @media screen and (min-width: 1025) and (max-width: 1280) {
+            .heading{
+                color: rgb(232, 27, 147);
+            }
+        }
+
+        @media screen and (min-width: 1281){
+            .heading{
+                color: rgb(97, 190, 83);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure numquam voluptates qui, id sunt cupiditate officia vitae voluptatibus, distinctio laboriosam quo, ducimus quod. Officiis ducimus dicta, natus obcaecati quam reprehenderit.</h1>
+</body>
+</html>
